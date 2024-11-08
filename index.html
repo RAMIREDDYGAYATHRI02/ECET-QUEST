@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ap Ecet.com</title>
+
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">
+            <b> <i class="fa fa-home" position="fixed">Home</i></b>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <b>
+              <i class="fa fa-users" position="fixed"> Ecet</i>
+            </b>
+          </a>
+
+          <ul class="ecet">
+            <li><a href="about.html">About</a></li>
+            <li><a href="subjects.html">Subjects</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">
+            <b>
+              <i class="fa fa-question-circle" position="fixed">
+                Question papers</i
+              >
+            </b>
+          </a>
+
+          <ul class="qp">
+            <li><a href="previousqp.html">Previous QP</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#"
+            ><b
+              ><i class="fa fa-ellipsis-v" position="fixed"> Eligibility</i></b
+            ></a
+          >
+          <ul class="eligibility">
+            <li><a href="ecet.html">Ecet</a></li>
+            <li><a href="btech.html">Btech</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">
+            <b>
+              <i class="fa fa-certificate" position="fixed"> Certificates</i>
+            </b>
+          </a>
+          <ul class="certificates">
+            <li><a href="applicationform.html">Application Form</a></li>
+            <li><a href="councelling.html">Councelling</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <b>
+              <i class="fa fa-align-center" position="fixed"> Centers</i>
+            </b>
+          </a>
+          <ul class="centers">
+            <li><a href="examc.html">Exam Centers</a></li>
+            <li><a href="councellingc.html">Councelling Centers</a></li>
+            <li><a href="coachingc.html">Coaching Centers</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">
+            <b>
+              <i class="fa fa-graduation-cap"> Btech</i>
+            </b>
+          </a>
+          <ul class="btech">
+            <li><a href="universities.html">Universities</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="1.png" /></div>
+          <div class="swiper-slide"><img src="2.png" /></div>
+          <div class="swiper-slide"><img src="3.png" /></div>
+          <div class="swiper-slide"><img src="4.png" /></div>
+          <div class="swiper-slide"><img src="5.png" /></div>
+          <div class="swiper-slide"><img src="6.png" /></div>
+          <div class="swiper-slide"><img src="7.png" /></div>
+          <div class="swiper-slide"><img src="8.png" /></div>
+          <div class="swiper-slide"><img src="9.png" /></div>
+          <div class="swiper-slide"><img src="10.png" /></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false
+        },
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      });
+    </script>
+  </body>
+</html>
