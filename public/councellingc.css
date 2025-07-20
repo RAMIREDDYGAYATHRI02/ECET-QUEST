@@ -1,0 +1,77 @@
+.button {
+  background-color: #009999; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  /*  margin: 4px 2px;*/
+  cursor: pointer;
+}
+.button4 {
+  border-radius: 12px;
+  margin-top: 15px;
+  margin-right: 200px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.button5 {
+  margin-left: 500px;
+  border-radius: 12px;
+}
+a.btn {
+  text-decoration: none;
+  color: white;
+  border-radius: 27px;
+}
+.button1 {
+  background-color: #009999;
+  border: none;
+  color: white;
+  margin-left: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  height: 50px;
+}
+.buttone {
+  border-radius: 30px;
+  width: 150px;
+  margin-bottom: 15px;
+  margin-left: 250px;
+}
+button:hover {
+  background-color: grey;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background: snow;
+  background-position: center;
+  background-size: cover;
+  font-size: 23.6px;
+  z-index: 1000;
+  visibility: visible;
+  background-color: lightgrey;
+}
+table,
+td {
+  border: solid black;
+  padding: 19px;
+  border-collapse: collapse;
+  background-color: #b3cccc;
+  /* text-align: center;*/
+  /*border-width: medium;*/
+}
